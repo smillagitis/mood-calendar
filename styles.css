@@ -1,0 +1,81 @@
+body {
+    background-color: rgba(216, 191, 216, 0.507);
+}
+.header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    max-height: 80px;
+}
+.calendar {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.year {
+    padding: 20px;
+}
+.months {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.month {
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+    
+}
+
+.day-button {
+    min-width: 30px;
+    min-height: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    border-radius: 40px;
+
+}
+
+.day-button:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+.mood-button {
+    min-width: 30px;
+    min-height: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    border-radius: 40px;
+
+}
+
+.mood-button:hover {
+    filter: brightness(90%);
+    
+}
+ .colors {
+     font-size: 25px;
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+ }
+
+.picked-color{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
