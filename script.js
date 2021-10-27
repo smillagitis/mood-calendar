@@ -1,6 +1,6 @@
 const monthsField = document.querySelector('.months')
 const oneMonthField = document.querySelector('.month')
-const moodColors = ['red', 'yellow', 'green']
+const moodColors = ['#bd3f00', '#bd9a00', '#2fbd00']
 const weekDays = [ "Mon", "Tue", "Wed", "Thu", "Fri", "Sat","Sun"]
 const months = Array.from({length: 12}, (item, i) => {
     return new Date(0, i).toLocaleString('en-US', {month: 'long'})
