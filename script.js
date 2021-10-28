@@ -13,12 +13,6 @@ let displayCurrentYear = function () {
     yearField.innerHTML = year;
 }
 
-
-
-
-
-
-
 let createWeekDays = function() {
     for (let j = 0; j < weekDays.length; j++) {
     let weekDay = document.createElement('div')
@@ -40,8 +34,6 @@ let displayMonths = function() {
     
    }
 }
-
-
 
 let getNumberOfDaysInMonth = function(month,year) {
     // Here January is 1 based

@@ -24,13 +24,15 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
 }
 .month {
-    max-width: 200px;
+    max-width: 210px;
     max-height: 200px;
     text-align: center;
-    
+    padding: 10px;
 }
 
 .day-button {
