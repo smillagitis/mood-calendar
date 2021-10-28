@@ -102,6 +102,7 @@ let toggleButtonColors = function() {
             
             this.style.backgroundColor = 'transparent';
             this.buttonPressed = false;
+            localStorage.setItem(i, 'transparent')
         } else {
             this.style.backgroundColor = chosenColor;
             this.style.brightness = "50%";
